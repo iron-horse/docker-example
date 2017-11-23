@@ -44,7 +44,7 @@ Now lets run all microservices with docker swarm,
 
 1. Go to directory `docker-example`
 2. Make your machine as master node in swarm mode (i.e clustor mode), by `docker swarm init`
-3. Deploy the stack of services by `docker stack deploy -c docker-composer.yml dkr_example`
+3. Deploy the stack of services by `docker stack deploy -c docker-compose.yml dkr_example`
 4. Check if all services is up or not by `docker service ls`
 5. If all services are up you can visit http://localhost
 
