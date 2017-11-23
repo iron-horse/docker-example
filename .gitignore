@@ -1,0 +1,11 @@
+node_modules/
+.env
+
+data/db/*
+
+*.log
+.DS_Store
+
+frontend/src/app/**/*.js
+frontend/src/main.js
+frontend/src/**/*.js.map
